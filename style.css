@@ -79,7 +79,7 @@ span
     border-color: royalblue;
 
 }
-.pesquisa
+.fm-inp
 {
     position: fixed;
     margin-top: 10px;
@@ -87,14 +87,44 @@ span
     text-align: center;
     align-items: center;
     height: 40px;
-    width: 538px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 40%;
+    font-family: sans-serif;
     font-size: 20px;
-    border-radius: 10px;
-    color: rgb(196, 196, 196);
-    background-color: rgb(11, 11, 11) ;
-    border-style: solid;
-    border-color: rgb(85, 85, 85);
+    border-radius: 2px;
+    color: #cdcdcd;
+    background-color: rgb(0, 0, 0) ;
+    border: solid 2px;
+    border-color: rgb(0, 0, 0);
+}
+
+.btn-search
+{
+    position: absolute;
+    margin-left: 70.1%;
+    margin-top: 10px;
+    width: 60px;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 2px;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 40px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.btn-search:hover
+{
+    border-color: rgb(110, 110, 110);
+}
+.icon
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
 }
 .movie
 {

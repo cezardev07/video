@@ -91,10 +91,34 @@
 
 
         <header>
-            <a href="https://cezardev07.github.io/site/" class="logo">< Dev-<span>Tube</span> ></a>
+
+            <a href="https://cezardev07.github.io/canal/" class="logo">< Dev-<span>Tube</span> ></a>
             <a href="#" class="login">iniciar sessão</a>
-            <input class="pesquisa" type="text" value="Pesquisa...">
+
+            <form class="form" method="get" action="#">
+                <input type="search" name="search" placeholder="Search..." class="fm-inp">
+            </form>
+            <button class="btn-search">
+                <img class="icon" src="./img/seach white.PNG">
+            <!-- <i class="" href="./search_black_24dp.svg"></i> -->
+            </button>
+
         </header>
     </div>
+    <script type="text/javascript">
+
+        const form = document.querySelector(".form");
+        const search = document.querySelector(".fm-inp");
+        const btn = document.querySelector(".btn-search");
+
+        btn.addEventListener("click", function(){
+            if (search.value.length > 0) {
+                window.location = "https://cezardev07.github.io/" + search.value;
+                search.value = "";
+            }else {
+                form.classList.toggle("actived");
+            }
+        })
+    </script>
 </body>
 </html>
