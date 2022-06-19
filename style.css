@@ -26,7 +26,7 @@ body{
     grid-template-areas: 
     "h h"
     "v n"
-    "f ."
+    "a ."
     ;
 }
 header{
@@ -57,7 +57,7 @@ aside{
     border-right: none;
     border-left: none;
     border-top: none;
-    grid-area: f;
+    grid-area: a;
     margin-top: -3%;
     margin-left: 3%;
 }
@@ -286,7 +286,7 @@ img{
         grid-template-areas: 
         "h h"
         "v v"
-        "f f"
+        "a a"
         "n n"
         ;
     }
