@@ -266,7 +266,7 @@ img{
         margin-left: 0px;
     }
     video{
-        width: 90vw;
+        width: 95vw;
         border: solid 3px rgb(255, 0, 0);
         margin-left: 0px;
     }
@@ -356,6 +356,11 @@ img{
         margin-left: 60vw;
         font-size: 6px;
         width: 180px;
+        border-right: none;
+        border-top: none;
+    }
+    video{
+        width: 98vw;
     }
 }
 @media(max-width: 485px){
