@@ -136,6 +136,9 @@ img{
     height: 113px;
     border: solid 3px red;
 }
+img:hover{
+    border-color: #ba0000;
+}
 .title{
     text-decoration: none;
     color: rgb(255, 255, 255);
